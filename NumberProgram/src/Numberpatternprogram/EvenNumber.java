@@ -1,0 +1,18 @@
+package Numberpatternprogram;
+
+import java.util.Scanner;
+
+public class EvenNumber {
+
+	public static void main(String[] args) {
+
+			Scanner scan =new Scanner(System.in);
+			System.out.println("Enter the number");
+			int n = scan.nextInt();
+			EvenNumber1 en = new EvenNumber1();
+			en.thyagi(n);
+			
+
+	}
+
+}
